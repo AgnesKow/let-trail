@@ -1,0 +1,61 @@
+name: letstrail
+description: LetsTrail Mobile application built on Flutter with backend services on Firebase Firestore and Firestore Storage along with usage of Cloud Functions and messaging for notifications and firebase authentication for logins.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  geolocator: ^9.0.1
+#  introduction_screen: ^2.1.0
+  lottie: ^1.2.1
+  shimmer: ^2.0.0
+  top_snackbar_flutter: ^1.0.1
+  image_picker: ^0.8.4+3
+  speech_to_text: ^6.0.0
+  firebase_core: ^1.7.0
+  firebase_auth: ^3.1.3
+  cloud_firestore: ^3.1.13
+  firebase_storage: ^10.0.6
+  google_sign_in: ^5.2.0
+  bottom_navy_bar: ^6.0.0
+  google_fonts: ^2.3.1
+  google_maps_flutter: ^2.1.1
+  flutter_polyline_points: ^1.0.0
+  timeago: ^3.2.2
+  get_storage: ^2.0.3
+  url_launcher: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/animations/
+    - assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
