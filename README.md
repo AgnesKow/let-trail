@@ -7,11 +7,9 @@ The software to be used are developed by Google, which are Flutter ,Dart and Fir
 
 <p align="center">
     <img src="assets/screenshots/map.png" width="450" height="750" /><br/>
-    <img src="assets/screenshots/profile.png" width="450" height="750" /><br/>
     <img src="assets/screenshots/search.png" width="450" height="750" /><br/>
     <img src="assets/screenshots/records.png" width="450" height="750" /><br/>
     <img src="assets/screenshots/all_journals.png" width="450" height="750" /><br/>
-    <img src="assets/screenshots/drawer.png" width="450" height="750" /><br/>
 </p>
 
 Commands to run on M1 Mac:
